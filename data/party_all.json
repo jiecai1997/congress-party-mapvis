@@ -1,0 +1,401 @@
+[
+  {
+    "state": "AK",
+    "democrat": 27,
+    "republican": 53,
+    "partyScale": -0.325,
+    "fillKey": "Slight Republican"
+  },
+  {
+    "state": "AL",
+    "democrat": 648,
+    "republican": 150,
+    "partyScale": 0.62406015,
+    "fillKey": "Slight Democrat"
+  },
+  {
+    "state": "AR",
+    "democrat": 433,
+    "republican": 65,
+    "partyScale": 0.738955823,
+    "fillKey": "Heavy Democrat"
+  },
+  {
+    "state": "AS",
+    "democrat": 17,
+    "republican": 2,
+    "partyScale": 0.789473684,
+    "fillKey": "Heavy Democrat"
+  },
+  {
+    "state": "AZ",
+    "democrat": 125,
+    "republican": 129,
+    "partyScale": -0.015748031,
+    "fillKey": "Neutral"
+  },
+  {
+    "state": "CA",
+    "democrat": 1119,
+    "republican": 933,
+    "partyScale": 0.090643275,
+    "fillKey": "Neutral"
+  },
+  {
+    "state": "CO",
+    "democrat": 167,
+    "republican": 189,
+    "partyScale": -0.061797753,
+    "fillKey": "Neutral"
+  },
+  {
+    "state": "CT",
+    "democrat": 245,
+    "republican": 283,
+    "partyScale": -0.071969697,
+    "fillKey": "Neutral"
+  },
+  {
+    "state": "DC",
+    "democrat": 24,
+    "republican": 2,
+    "partyScale": 0.846153846,
+    "fillKey": "Heavy Democrat"
+  },
+  {
+    "state": "DE",
+    "democrat": 81,
+    "republican": 73,
+    "partyScale": 0.051948052,
+    "fillKey": "Neutral"
+  },
+  {
+    "state": "DK",
+    "democrat": 4,
+    "republican": 11,
+    "partyScale": -0.466666667,
+    "fillKey": "Republican"
+  },
+  {
+    "state": "FL",
+    "democrat": 502,
+    "republican": 313,
+    "partyScale": 0.23190184,
+    "fillKey": "Slight Democrat"
+  },
+  {
+    "state": "GA",
+    "democrat": 816,
+    "republican": 240,
+    "partyScale": 0.545454545,
+    "fillKey": "Slight Democrat"
+  },
+  {
+    "state": "GU",
+    "democrat": 19,
+    "republican": 4,
+    "partyScale": 0.652173913,
+    "fillKey": "Slight Democrat"
+  },
+  {
+    "state": "HI",
+    "democrat": 85,
+    "republican": 32,
+    "partyScale": 0.452991453,
+    "fillKey": "Slight Democrat"
+  },
+  {
+    "state": "IA",
+    "democrat": 149,
+    "republican": 584,
+    "partyScale": -0.593451569,
+    "fillKey": "Republican"
+  },
+  {
+    "state": "ID",
+    "democrat": 50,
+    "republican": 132,
+    "partyScale": -0.450549451,
+    "fillKey": "Republican"
+  },
+  {
+    "state": "IL",
+    "democrat": 878,
+    "republican": 1061,
+    "partyScale": -0.094378546,
+    "fillKey": "Neutral"
+  },
+  {
+    "state": "IN",
+    "democrat": 526,
+    "republican": 556,
+    "partyScale": -0.027726433,
+    "fillKey": "Neutral"
+  },
+  {
+    "state": "KS",
+    "democrat": 76,
+    "republican": 424,
+    "partyScale": -0.696,
+    "fillKey": "Republican"
+  },
+  {
+    "state": "KY",
+    "democrat": 602,
+    "republican": 340,
+    "partyScale": 0.278131635,
+    "fillKey": "Slight Democrat"
+  },
+  {
+    "state": "LA",
+    "democrat": 549,
+    "republican": 144,
+    "partyScale": 0.584415584,
+    "fillKey": "Slight Democrat"
+  },
+  {
+    "state": "MA",
+    "democrat": 495,
+    "republican": 741,
+    "partyScale": -0.199029126,
+    "fillKey": "Slight Republican"
+  },
+  {
+    "state": "MD",
+    "democrat": 456,
+    "republican": 265,
+    "partyScale": 0.264909847,
+    "fillKey": "Slight Democrat"
+  },
+  {
+    "state": "ME",
+    "democrat": 112,
+    "republican": 295,
+    "partyScale": -0.44963145,
+    "fillKey": "Republican"
+  },
+  {
+    "state": "MI",
+    "democrat": 451,
+    "republican": 797,
+    "partyScale": -0.27724359,
+    "fillKey": "Slight Republican"
+  },
+  {
+    "state": "MN",
+    "democrat": 213,
+    "republican": 423,
+    "partyScale": -0.330188679,
+    "fillKey": "Slight Republican"
+  },
+  {
+    "state": "MO",
+    "democrat": 757,
+    "republican": 319,
+    "partyScale": 0.407063197,
+    "fillKey": "Slight Democrat"
+  },
+  {
+    "state": "MP",
+    "democrat": 4,
+    "republican": 0,
+    "partyScale": 1,
+    "fillKey": "Heavy Democrat"
+  },
+  {
+    "state": "MS",
+    "democrat": 507,
+    "republican": 89,
+    "partyScale": 0.701342282,
+    "fillKey": "Heavy Democrat"
+  },
+  {
+    "state": "MT",
+    "democrat": 105,
+    "republican": 63,
+    "partyScale": 0.25,
+    "fillKey": "Slight Democrat"
+  },
+  {
+    "state": "NC",
+    "democrat": 735,
+    "republican": 375,
+    "partyScale": 0.324324324,
+    "fillKey": "Slight Democrat"
+  },
+  {
+    "state": "ND",
+    "democrat": 39,
+    "republican": 129,
+    "partyScale": -0.535714286,
+    "fillKey": "Republican"
+  },
+  {
+    "state": "NE",
+    "democrat": 85,
+    "republican": 270,
+    "partyScale": -0.521126761,
+    "fillKey": "Republican"
+  },
+  {
+    "state": "NH",
+    "democrat": 86,
+    "republican": 244,
+    "partyScale": -0.478787879,
+    "fillKey": "Republican"
+  },
+  {
+    "state": "NJ",
+    "democrat": 483,
+    "republican": 628,
+    "partyScale": -0.130513051,
+    "fillKey": "Slight Republican"
+  },
+  {
+    "state": "NM",
+    "democrat": 106,
+    "republican": 81,
+    "partyScale": 0.13368984,
+    "fillKey": "Slight Democrat"
+  },
+  {
+    "state": "NV",
+    "democrat": 88,
+    "republican": 81,
+    "partyScale": 0.041420118,
+    "fillKey": "Neutral"
+  },
+  {
+    "state": "NY",
+    "democrat": 1793,
+    "republican": 1719,
+    "partyScale": 0.021070615,
+    "fillKey": "Neutral"
+  },
+  {
+    "state": "OH",
+    "democrat": 795,
+    "republican": 1179,
+    "partyScale": -0.194528875,
+    "fillKey": "Slight Republican"
+  },
+  {
+    "state": "OK",
+    "democrat": 279,
+    "republican": 150,
+    "partyScale": 0.300699301,
+    "fillKey": "Slight Democrat"
+  },
+  {
+    "state": "OR",
+    "democrat": 157,
+    "republican": 178,
+    "partyScale": -0.062686567,
+    "fillKey": "Neutral"
+  },
+  {
+    "state": "PA",
+    "democrat": 993,
+    "republican": 1789,
+    "partyScale": -0.28612509,
+    "fillKey": "Slight Republican"
+  },
+  {
+    "state": "PR",
+    "democrat": 9,
+    "republican": 5,
+    "partyScale": 0.285714286,
+    "fillKey": "Slight Democrat"
+  },
+  {
+    "state": "RI",
+    "democrat": 128,
+    "republican": 136,
+    "partyScale": -0.03030303,
+    "fillKey": "Neutral"
+  },
+  {
+    "state": "SC",
+    "democrat": 534,
+    "republican": 253,
+    "partyScale": 0.357052097,
+    "fillKey": "Slight Democrat"
+  },
+  {
+    "state": "SD",
+    "democrat": 40,
+    "republican": 132,
+    "partyScale": -0.534883721,
+    "fillKey": "Republican"
+  },
+  {
+    "state": "TN",
+    "democrat": 607,
+    "republican": 327,
+    "partyScale": 0.299785867,
+    "fillKey": "Slight Democrat"
+  },
+  {
+    "state": "TX",
+    "democrat": 1300,
+    "republican": 344,
+    "partyScale": 0.581508516,
+    "fillKey": "Slight Democrat"
+  },
+  {
+    "state": "UT",
+    "democrat": 76,
+    "republican": 123,
+    "partyScale": -0.236180905,
+    "fillKey": "Slight Republican"
+  },
+  {
+    "state": "VA",
+    "democrat": 751,
+    "republican": 558,
+    "partyScale": 0.147440794,
+    "fillKey": "Slight Democrat"
+  },
+  {
+    "state": "VI",
+    "democrat": 21,
+    "republican": 1,
+    "partyScale": 0.909090909,
+    "fillKey": "Heavy Democrat"
+  },
+  {
+    "state": "VT",
+    "democrat": 23,
+    "republican": 224,
+    "partyScale": -0.813765182,
+    "fillKey": "Heavy Republican"
+  },
+  {
+    "state": "WA",
+    "democrat": 244,
+    "republican": 231,
+    "partyScale": 0.027368421,
+    "fillKey": "Neutral"
+  },
+  {
+    "state": "WI",
+    "democrat": 267,
+    "republican": 532,
+    "partyScale": -0.331664581,
+    "fillKey": "Slight Republican"
+  },
+  {
+    "state": "WV",
+    "democrat": 268,
+    "republican": 149,
+    "partyScale": 0.285371703,
+    "fillKey": "Slight Democrat"
+  },
+  {
+    "state": "WY",
+    "democrat": 30,
+    "republican": 98,
+    "partyScale": -0.53125,
+    "fillKey": "Republican"
+  }
+]
