@@ -1,65 +1,68 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
+<html lang="en">
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <title>CS216 Congress Data</title>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
   <script src="https://d3js.org/d3.v3.min.js"></script>
   <script src="https://d3js.org/topojson.v1.min.js"></script>
   <script src="js/datamaps.usa.min.js"></script>
 </head>
-<body>
-  <div class="jumbotron">
-    <h1 class="text-center display-4">CS216 Congress Data Visualization</h1>
-  </div>
-</br>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col">
-      <h4 class="text-center lead">All Senators</h4>
-      <div id="hello" style="position: relative; width: 800x; height: 300px;"></div>
-    </div>
-    <div class="col">
-      <h4 class="text-center lead">Current Senators</h4>
-      <div id="hello2" style="position: relative; width: 800x; height: 300px;"></div>
-    </div>
-  </div>
-  <script>
-  var map = new Datamap({
-    element: document.getElementById('hello'),
-    scope: 'usa',
-    popupTemplate: function(geography, data) {
-      return '<div class="hoverinfo">' + geography.properties.name + 'Party Scale:' +  data.partyScale + ' '},
-      fills: {
-        'Heavy Democrat': '#667FAF',
-        'Democrat': '#667FAF',
-        'Slight Democrat': '#A9C0DE',
-        'Neutral': '#eeeea4',
-        'Slight Republican': '#EAA9A8',
-        'Republican': '#CA5E5B',
-        'Heavy Republican': '#CA5E5B',
-        defaultFill: '#eeeea4'
-      },
-      dataType: 'json',
-      dataUrl: 'https://api.myjson.com/bins/1aebmn'
-    });
 
-    var map2 = new Datamap({
-      element: document.getElementById('hello2'),
-      scope: 'usa',
-      popupTemplate: function(geography, data) {
-        return '<div class="hoverinfo">' + geography.properties.name + 'Party Scale:' +  data.partyScale + ' '},
-        fills: {
-          'Heavy Democrat': '#667FAF',
-          'Democrat': '#667FAF',
-          'Slight Democrat': '#A9C0DE',
-          'Neutral': '#eeeea4',
-          'Slight Republican': '#EAA9A8',
-          'Republican': '#CA5E5B',
-          'Heavy Republican': '#CA5E5B',
-          defaultFill: '#eeeea4'
-        },
-        dataType: 'json',
-        dataUrl: 'https://api.myjson.com/bins/7p5b3'
-      });
-      </script>
-    </body>
+<body>
+  <div class="jumbotron text-center">
+    <a class="btn btn-social btn-sm btn-github" href="https://github.com/jiecai1997/congress-party-mapvis">
+      <span class="fa fa-guthub"></span> View On Github
+    </a>
+    <hr class="my-4">
+    <h1 class="display-4">Congress Party US Map Visualization</h1>
+    <hr class="my-4">
+    <p class="lead">CS216 Homework 9, Data Visualization Challenge</p>
+    </br>
+    <p class="lead">Senators</p>
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+      <label class="btn btn-outline-dark waves-effect active" id="btn-all">
+        <input type="radio" name="options" autocomplete="off" checked> All
+      </label>
+      <label class="btn btn-outline-dark waves-effect" id="btn-1800s">
+        <input type="radio" name="options" autocomplete="off"> 1800s
+      </label>
+      <label class="btn btn-outline-dark waves-effect" id="btn-1900s">
+        <input type="radio" name="options" autocomplete="off"> 1900s
+      </label>
+      <label class="btn btn-outline-dark waves-effect" id="btn-2000s">
+        <input type="radio" name="options" autocomplete="off"> 2000s
+      </label>
+      <label class="btn btn-outline-dark waves-effect" id="btn-current">
+        <input type="radio" name="options" autocomplete="off"> Current
+      </label>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <h4 class="text-center lead">All Senators</h4>
+        <!--<div id="hello" style="position: relative; width: 800x; height: 300px;"></div>-->
+      </div>
+      <div class="col">
+        <h4 class="text-center lead">Current Senators</h4>
+        <div id="hello2" style="position: relative; width: 800x; height: 300px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/statemaps.js"></script>
+
+</body>
