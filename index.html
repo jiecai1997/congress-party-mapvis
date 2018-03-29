@@ -29,7 +29,7 @@
     <h1 class="display-4">Congress Party US Choropleth</h1>
     <hr class="my-4">
     <p class="lead">
-      Distibution of Political Parties in US Congress overtime.
+      Distibution of Political Parties in Congress across US States.
     </p>
   </div>
 
@@ -48,23 +48,37 @@
 
   <div class="jumbotron">
     <p class="lead"><strong>
-      Question
+      01 - Question
     </strong></p>
     <p>
-      The ideologies of Democratic and Republican parties in the US have changed drastically overtime, also leading to a huge difference in congress party representation throughout US history. We wanted to create a visualization that can show this trend.
+      Through our project, we wanted to investigate the polarization of each state. We started by analyzing how polarized each state was historically, and then thought about the history of the parties and how much they have changed over time. Thus, we then made a new map representing the current polarization of each state based on their elected officials.
     </p>
     <p class="lead"><strong>
-      Congress Dataset
+      02 - Congress Dataset
     </strong></p>
     <p>
-      We were given congress datasets that contained information about individual votes, as well as information about all the serving legistators and senators. We focused specifically on the parties of people who served in congress.
+      Regarding our data, we used the congress database to pull information regarding the party affiliation of all current and past representatives for each state. We used that information to compute the fraction of Democrats to Republicans within each state, and then scaled that fraction down into a range between -1 and 1, where -1 represents a fully Republican state and 1 represents a fully Democratic state.
     </p>
     <p class="lead"><strong>
-      Our Choropleth
+      03 - Backend
     </strong></p>
     <p>
-      Our team proposed that a simple choropleth would be the most efficient in answering our question. Choropleth specifically can show how the congress's political party makeup has changed across different states. Our visualization was made using Datamaps and d3.js.
+      We used SQL queries similar to the ones we used in homework 2, one query for all representatives and one for just the current members. For each query, we counted the number of members who are democrats and those who are republicans while grouping by state.
     </p>
+    <p class="lead"><strong>
+      04 - Frontend
+    </strong></p>
+    <p>
+      For our front end, we used a jquery plugin for map data visualizations called DataMaps. Datamap is built on top of D3.js for more user-friendly and customizable maps. We started with the default US map choropleth, and plugged in our SQL results for each state, based on the past and current representative datasets.
+    </p>
+    <p class="lead"><strong>
+      05 - Accuracy
+    </strong></p>
+    <p>
+      By comparing our model to other visualizations of state polarization, we can conclude that our visualization was a fairly accurate one. Here is our representation of the current state parties, and here is a map from Wikipedia on swing states in the 2016 election. We can see the similarities between the two, which suggests our data and visualization are both quite reliable.
+    </p>
+    </br>
+    <img src="img/swingstates.png"/>
   </div>
 
 </body>
