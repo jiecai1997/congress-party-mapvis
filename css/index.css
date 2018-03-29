@@ -23,6 +23,12 @@ a img:hover{
   padding:0px,50px;
 }
 
-.btn {
+.btn{
   width: 120px;
+  margin: 0px;
+}
+
+img{
+  width:100%;
+  height: auto;
 }
