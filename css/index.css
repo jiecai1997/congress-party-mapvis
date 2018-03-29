@@ -1,3 +1,28 @@
+#senator-select .btn{
+  width:140px;
+}
+
+#display-map{
+  margin:auto;
+  width:80%;
+  height:600px;
+  position:relative;
+}
+
 .jumbotron{
-  background:linear-gradient(#add8e6, #e6bbad);
+  padding:30px 20%;
+  background:linear-gradient(whitesmoke,white);
+}
+
+a img:hover{
+  position:relative;
+  top:-1px;
+}
+
+.lead{
+  padding:0px,50px;
+}
+
+.btn {
+  width: 120px;
 }
